@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@intugine-technologies/halts)](https://www.npmjs.com/package/@intugine-technologies/halts)
 [![install size](https://packagephobia.com/badge?p=@intugine-technologies/halts)](https://packagephobia.com/result?p=@intugine-technologies/halts)
 
+
 Halt calculation for a set of locations
 
 ## Table of Contents
