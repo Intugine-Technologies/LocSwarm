@@ -1,0 +1,47 @@
+{
+  "_from": "@intugine-technologies/halts",
+  "_id": "@intugine-technologies/halts@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-A/zPCLnGuA7hHBRCg5i7pRJNY2/QetgwGv/Ser9jbquiH+ejQVhYw5SYr3QPBlcradqechACWzEjnI8eUqDyeQ==",
+  "_location": "/@intugine-technologies/halts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@intugine-technologies/halts",
+    "name": "@intugine-technologies/halts",
+    "escapedName": "@intugine-technologies%2fhalts",
+    "scope": "@intugine-technologies",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@intugine-technologies/halts/-/halts-1.0.0.tgz",
+  "_shasum": "d88eaced83efe778e0c7c209d59aff7e248bc34f",
+  "_spec": "@intugine-technologies/halts",
+  "_where": "/home/mayank/Desktop/Intugine/Scripts",
+  "author": {
+    "name": "Mayank Mittal"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@intugine-technologies/distance": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@intugine-technologies/halts",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/index.js"
+  },
+  "version": "1.0.2"
+}
