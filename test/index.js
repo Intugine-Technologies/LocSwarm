@@ -11,5 +11,12 @@ describe("Calculate Halts", () => {
 			})));
 			assert.equal(halts.length, 11);
 		});
+		it("Should have basic keys", () => {
+			const halts = calc_halts(test1_data.map(i => ({
+			    loc: i.loc || i.gps,
+			    time: i.time || i.createdAt
+			})));
+			assert.equal(Boolean(halts[0].loc), true);
+		});
 	})
 });
