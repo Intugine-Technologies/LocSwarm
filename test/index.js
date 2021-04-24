@@ -18,6 +18,7 @@ describe("Calculate Halts", () => {
 			})));
 			assert.equal(Boolean(halts[0].loc), true);
 			assert.equal(Boolean(halts[0].duration), true);
+			assert.equal(Boolean(halts[0].from_time), true);
 		});
 	})
 });
