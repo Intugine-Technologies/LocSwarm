@@ -17,6 +17,7 @@ describe("Calculate Halts", () => {
 			    time: i.time || i.createdAt
 			})));
 			assert.equal(Boolean(halts[0].loc), true);
+			assert.equal(Boolean(halts[0].duration), true);
 		});
 	})
 });
